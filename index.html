@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(161, 88, 230);
+            color: white;
+            text-transform: capitalize;
+        }
+        .container{
+            margin: 150px auto;
+        }
+        fieldset{
+           text-align : center;
+        }
+        fieldset input{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            <form action="post">
+            <fieldset>
+                <legend>student info</legend>
+                <label for="text">name</label>
+                <input type="text" placeholder="name of student">
+                <label for="number">phn no.</label>
+                <input type="tel" placeholder="phn no.">
+                <label for="text">father's name</label>
+                <input type="text" placeholder="father's name">
+            </fieldset>
+            <fieldset>
+                <legend>school info</legend>
+                <label for="text">subject</label>
+                <select>
+                    <option value="text">hindi</option>
+                    <option value="text">english</option>
+                    <option value="text">math</option>
+                    <option value="text">science</option>
+                </select>
+                <label for="text">address</label>
+                <input type="text" placeholder="address">
+                <label for="text">roll no</label>
+                <input type="text" placeholder="roll no">
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
